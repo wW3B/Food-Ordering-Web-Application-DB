@@ -1,14 +1,14 @@
-### 🍽️ Food Ordering Web Application (Node.js & MySQL)
+# 🍽️ Food Ordering Web Application (Node.js & MySQL)
 
 This project is a database-driven web application for food ordering and user management.
 The system allows users to register, log in, browse food items, add them to a cart, and view their personal information.
 
-### 🧩 System Overview
+# 🧩 System Overview
 
 The application is built using Node.js, EJS, and MySQL, following a client–server architecture.
 Frontend pages interact with backend logic and database operations to provide dynamic content and user authentication.
 
-### 🔁 Application Flow
+# 🔁 Application Flow
 index.js
    ↓
 login-register.ejs
@@ -19,7 +19,7 @@ home.ejs ⇄ product.ejs
    ↓
 database.js (MySQL)
 
-### 📌 Flow Description
+# 📌 Flow Description
 
 - index.js acts as the entry point of the application
 
@@ -31,13 +31,13 @@ database.js (MySQL)
 
 - Users can view their profile or order food
 
-### 📄 Page Descriptions
+# 📄 Page Descriptions
 ## 🔐 login-register.ejs
 
-# Purpose:
+### Purpose:
 Allows users to register or log in to the system
 
-# Main Features:
+### Main Features:
 
 - User registration with name, email, and password
 
@@ -45,15 +45,15 @@ Allows users to register or log in to the system
 
 - Form validation and data submission to backend
 
-# Technologies Used:
+### Technologies Used:
 Node.js, HTML, CSS, JavaScript, Bootstrap, MySQL
 
-### 🛒 product.ejs
+# 🛒 product.ejs
 
-# Purpose:
+### Purpose:
 Allows users to browse food items, view prices, and place orders
 
-# Main Features:
+### Main Features:
 
 - Display food menu with images and prices
 
@@ -61,32 +61,32 @@ Allows users to browse food items, view prices, and place orders
 
 - Payment workflow logic
 
-# Technologies Used:
+### Technologies Used:
 Node.js, HTML, CSS, JavaScript, Bootstrap
 
-### 👤 home.ejs
+# 👤 home.ejs
 
-# Purpose:
+### Purpose:
 Displays personal information of the logged-in user
 
-# Main Features:
+### Main Features:
 
 - Display user profile information (name, email)
 
 - Retrieve user data dynamically from database
 
-# Technologies Used:
+### Technologies Used:
 HTML, CSS, JavaScript, Bootstrap
 
-### 🗄️ Database Structure (MySQL)
+# 🗄️ Database Structure (MySQL)
 ## 📦 Tables Overview
-# 🛍️ carts
+### 🛍️ carts
 
 - Stores food items added to the shopping cart
 
 - Used to manage user orders before checkout
 
-# 🍔 product
+### 🍔 product
 
 - Stores information about food items available in the store
 
@@ -98,7 +98,7 @@ HTML, CSS, JavaScript, Bootstrap
 
 - product_status – availability status of the product
 
-# 👥 users
+### 👥 users
 
 - Stores customer information
 
@@ -110,7 +110,7 @@ HTML, CSS, JavaScript, Bootstrap
 
 - users_password – encrypted user password
 
-# 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 - Backend: Node.js
 
@@ -120,7 +120,7 @@ HTML, CSS, JavaScript, Bootstrap
 
 - Database: MySQL
 
-# 🎯 Key Learning Outcomes
+### 🎯 Key Learning Outcomes
 
 - Implemented user authentication with database integration
 
